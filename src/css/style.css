@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: dimgray;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  background: #fff;
+  max-width: 995px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  background-color: rgb(238, 234, 234);
+  padding: 10px 20px;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-link:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.nav-menu li {
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.nav-menu-link {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 3px 8px;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-menu-link:hover {
+  border: 1px solid black;
+  color: white;
+  background: rgb(228, 228, 228);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-menu-link.active {
+  background: rgb(41, 41, 104);
+  color: white;
+}
+
+.main-content {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px 10px;
+  margin-bottom: 25px;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.background-home-image {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm81HmqEV8qSQBe5GCGXGCDmLovR7OyZ8hYg&usqp=CAU");
+  background-size: cover;
+  margin-bottom: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.background-home-image:hover {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8A7-63HCqadG5ZlVNiWfwjhRBBeq5I57URQ&usqp=CAU");
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+.home-image-container {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  margin-bottom: 100px;
+}
+
+.home-image-1,
+.home-image-2,
+.home-image-3 {
+  background-size: cover;
+  width: 200px;
+  height: 150px;
+  margin-right: 50px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.home-image-1:hover,
+.home-image-2:hover,
+.home-image-3:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+.home-image-1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS7PQUwyhsdNSYxC9cKL5IgTk-uzLBiFJsUA&usqp=CAU");
+}
+
+.home-image-2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5EEsPrGkDbRzZblixkcaakr2JaGRQUBOt0A&usqp=CAU");
+}
+
+.home-image-3 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsiod1GrB61-y0pNSxA7C3yvTXUZKnCfVHxA&usqp=CAU");
+}
+
+.team-container {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-image {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-image:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+.image-profile {
+  width: 50%;
+  height: 500px;
+  background-size: cover;
+}
+
+.back-link {
+  text-decoration: none;
+  background: dimgray;
+  color: #fff;
+  border-radius: 10px;
+  text-transform: capitalize;
+  border: 1px solid grey;
+  padding: 3px 5px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.back-link:hover {
+  background: rgb(41, 41, 104);
+  color: white;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.footer {
+  background: rgb(59, 59, 59);
+  color: white;
+  text-align: center;
+  padding: 35px;
+  font-size: 20px;
+}
